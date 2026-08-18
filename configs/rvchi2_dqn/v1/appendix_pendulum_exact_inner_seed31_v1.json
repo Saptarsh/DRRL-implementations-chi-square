@@ -1,0 +1,16 @@
+{
+  "task": "pendulum",
+  "phase": "development",
+  "seeds": [
+    31
+  ],
+  "overrides": {
+    "enabled_methods": [
+      "nominal",
+      "exact"
+    ],
+    "continue_after_failed_pretraining_gate": true,
+    "pretrain_q_learning_rate": 0.00025,
+    "q_learning_rate": 0.0001
+  }
+}

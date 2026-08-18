@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the associated work."
+type: software
+title: "Reproducibility package for Finite-Time Convergence of Single-Trajectory Chi-Square Robust Q-Learning With Linear Function Approximation"
+version: "1.0.0"
+date-released: "2026-08-18"
+authors:
+  - family-names: Mandal
+    given-names: Saptarshi
+    email: smandal4@illinois.edu
+  - family-names: Murthy
+    given-names: Yashaswini
+  - family-names: Srikant
+    given-names: R.
+repository-code: "https://github.com/Saptarsh/DRRL-implementations-chi-square"
+abstract: >-
+  Executable source, frozen configurations, authenticated companion-data
+  specifications, and figure-regeneration workflows for the MiniCliff and
+  Pendulum experiments accompanying the named work.
+keywords:
+  - distributionally robust reinforcement learning
+  - chi-square divergence
+  - robust Q-learning
+  - reproducibility

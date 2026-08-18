@@ -1,0 +1,17 @@
+{
+  "archive_filename": "pendulum-companion-data.tar.gz",
+  "archive_sha256": "f8cb86e08198179ea99bac86fbb352f0aeb1338b94d47dec1a3afb8bc7c3b7c5",
+  "archive_size_bytes": 30145268,
+  "payload": {
+    "file_count": 158,
+    "inventory_canonicalization": "SHA-256 of compact sorted JSON mapping repository-relative path to {sha256,size_bytes}",
+    "inventory_sha256": "d1c278aaeaab7224fc3a10f64af0a9c4ab33784adc2dd2c62be5373c616ef01d",
+    "scope": "canonical reporting tree, two development authorization files, and the manifest plus complete raw seed bundle for each seed-31 supplement",
+    "total_bytes": 36446249
+  },
+  "schema_version": "drrl_chi_square.companion_archive.v1",
+  "source_spec": {
+    "path": "reproducibility/paper_experiments/pendulum/frozen_inputs.json",
+    "sha256": "543206ae261e3fb266b120eba8ba104983bf2eaedbf88fa1fd046c572f251e02"
+  }
+}

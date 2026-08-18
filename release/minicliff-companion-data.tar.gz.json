@@ -1,0 +1,28 @@
+{
+  "archive_filename": "minicliff-companion-data.tar.gz",
+  "archive_sha256": "9da4975969bd6cabd8978ef9c4e97dc25ee61787cb8d3631ed156a7e2a42351f",
+  "archive_size_bytes": 5836123,
+  "payload": {
+    "file_count": 609,
+    "inventory_canonicalization": "compact sorted JSON mapping main/<path> and ell_sensitivity/<path> to {sha256,size}, followed by one newline",
+    "inventory_sha256": "8d02a0b0ea68f1fe1cae82c35ff1418410f982dc7a0aa36b90d8edecba6df864",
+    "studies": {
+      "ell_sensitivity": {
+        "file_count": 493,
+        "inventory_sha256": "6a30e08a0606602c70c154b01c9077efba30305d5f67de77958724621314412b",
+        "total_bytes": 9143122
+      },
+      "main": {
+        "file_count": 116,
+        "inventory_sha256": "5fd528c52932d5eb0d42429bda757162f93091953d64b773bdfd985278affe87",
+        "total_bytes": 2862826
+      }
+    },
+    "total_bytes": 12005948
+  },
+  "schema_version": "drrl_chi_square.companion_archive.v1",
+  "source_spec": {
+    "path": "reproducibility/paper_experiments/minicliff/frozen_spec.json",
+    "sha256": "ddba916566b62ed1b61d90ac58eb229726d1f74cbb4dc06d3b9c64fb4b901b00"
+  }
+}

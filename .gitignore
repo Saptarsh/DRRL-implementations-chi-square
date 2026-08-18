@@ -1,0 +1,21 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Locally extracted, authenticated companion data.
+/paper_variational_chi2_gridworld/main/
+/paper_variational_chi2_gridworld/ell_sensitivity/
+/results/rvchi2_dqn/v2/pendulum/reporting_full_nn_v1/
+/results/rvchi2_dqn/v2/pendulum/development_full_nn_v1/
+/results/rvchi2_dqn/v2/pendulum/exact_inner_seed31_v1/
+/results/rvchi2_dqn/v2/pendulum/ablation_full_nn_seed31_v1/
+
+# Locally built release assets and reproduction outputs.
+/release-assets/
+/dist/
+/*.tar.gz
+/*.tar.gz.json

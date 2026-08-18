@@ -1,0 +1,137 @@
+{
+  "schema": "rvchi2_dqn.pendulum_reproducibility_inputs.v1",
+  "source_snapshot": {
+    "configs/rvchi2_dqn/v1/ablation_pendulum_full_nn_lr1e4_seed31.json": "b99112b525b2c0612e0d9cc52c5815bf147373977f9642ec4fda74005c5b9e55",
+    "configs/rvchi2_dqn/v1/appendix_pendulum_exact_inner_seed31_v1.json": "cb59ce69dd7f39239f1fbee85b407cdfe7ca709fc619a0a216a8988b69b842ee",
+    "configs/rvchi2_dqn/v1/development_pendulum_full_nn.json": "d2730a38b16d488206d68402bd9c1334bbeab30b54d220d0a704b31eb23ad3f9",
+    "configs/rvchi2_dqn/v1/reporting_pendulum_full_nn.json": "8b48513a4122e4c9c48a59e6983dfa139a19988883fc93065aed9e0cf3a5641b",
+    "requirements-freeze.txt": "094934c3bfff9eca57bb5cdd757ccf67fcbae81234ce153caffa20d5db79282f",
+    "scripts/plot_rvchi2_dqn.py": "584b1a9b3eec3ecd0825d4584466c49f5199d53f30963b50d9494d8e10bcd20e",
+    "scripts/run_rvchi2_dqn.py": "31b2a40fc48dc514f3a5be9ad6c7bf1b5c27364d576edebff0d3ee1910f15df8",
+    "src/rvchi2_dqn/__init__.py": "c007a432512725189093e75b6e8f5fa01962385363e74e19af82ad2b7c0bf099",
+    "src/rvchi2_dqn/artifacts.py": "47807db9c283e58c7d8b0942977d7ac6868eb4ec8deeb6c82ea0fb8063ca4dc2",
+    "src/rvchi2_dqn/config.py": "17d677370e8e004b1628ef369e13ed1a976b692bf5234c06ad5fe4ee5e402112",
+    "src/rvchi2_dqn/diagnostics.py": "0904d385ed506b39ddea0b369f12d9c7a57601f12d45ee1e1650e575f6b7f2de",
+    "src/rvchi2_dqn/envs.py": "3ccd0ce5e15b72e2f77a80d205f19460e70d39dca3ba2d0cece959167a7835fc",
+    "src/rvchi2_dqn/networks.py": "464d2cb3636fc2ba7bcb8c760b3fd0b948c95a74048506913cbab849d4e5a9a1",
+    "src/rvchi2_dqn/operators.py": "13b40edac08524079fe07ad6d8f56a44f3a6a1a5cadc68fc631ebe3b6eafa454",
+    "src/rvchi2_dqn/replay.py": "0dab076f7ae78654c286bebdb943fe6d39940138ccb29ee6a7835a52ef7a503a",
+    "src/rvchi2_dqn/trainer.py": "1024db5f08606d86271f5c941ab19baab5acfc73d0b005b940258161d1f2f348"
+  },
+  "live_source_correspondence": {
+    "configs/rvchi2_dqn/v1/ablation_pendulum_full_nn_lr1e4_seed31.json": "configs/rvchi2_dqn/v1/ablation_pendulum_full_nn_lr1e4_seed31.json",
+    "configs/rvchi2_dqn/v1/appendix_pendulum_exact_inner_seed31_v1.json": "configs/rvchi2_dqn/v1/appendix_pendulum_exact_inner_seed31_v1.json",
+    "configs/rvchi2_dqn/v1/development_pendulum_full_nn.json": "configs/rvchi2_dqn/v1/development_pendulum_full_nn.json",
+    "configs/rvchi2_dqn/v1/reporting_pendulum_full_nn.json": "configs/rvchi2_dqn/v1/reporting_pendulum_full_nn.json",
+    "requirements-freeze.txt": "requirements-freeze.txt",
+    "scripts/plot_rvchi2_dqn.py": "scripts/plot_rvchi2_dqn.py",
+    "scripts/run_rvchi2_dqn.py": "scripts/run_rvchi2_dqn.py",
+    "src/rvchi2_dqn/__init__.py": "src/rvchi2_dqn/__init__.py",
+    "src/rvchi2_dqn/artifacts.py": "src/rvchi2_dqn/artifacts.py",
+    "src/rvchi2_dqn/config.py": "src/rvchi2_dqn/config.py",
+    "src/rvchi2_dqn/diagnostics.py": "src/rvchi2_dqn/diagnostics.py",
+    "src/rvchi2_dqn/envs.py": "src/rvchi2_dqn/envs.py",
+    "src/rvchi2_dqn/networks.py": "src/rvchi2_dqn/networks.py",
+    "src/rvchi2_dqn/operators.py": "src/rvchi2_dqn/operators.py",
+    "src/rvchi2_dqn/replay.py": "src/rvchi2_dqn/replay.py",
+    "src/rvchi2_dqn/trainer.py": "src/rvchi2_dqn/trainer.py"
+  },
+  "scientific_source_map": {
+    "artifacts": "src/rvchi2_dqn/artifacts.py",
+    "config": "src/rvchi2_dqn/config.py",
+    "diagnostics": "src/rvchi2_dqn/diagnostics.py",
+    "envs": "src/rvchi2_dqn/envs.py",
+    "networks": "src/rvchi2_dqn/networks.py",
+    "operators": "src/rvchi2_dqn/operators.py",
+    "replay": "src/rvchi2_dqn/replay.py",
+    "runner": "scripts/run_rvchi2_dqn.py",
+    "trainer": "src/rvchi2_dqn/trainer.py"
+  },
+  "companion_data_inventory": {
+    "scope": "canonical reporting tree, two development authorization files, and the manifest plus complete raw seed bundle for each seed-31 supplement",
+    "file_count": 158,
+    "total_bytes": 36446249,
+    "inventory_sha256": "d1c278aaeaab7224fc3a10f64af0a9c4ab33784adc2dd2c62be5373c616ef01d",
+    "canonicalization": "SHA-256 of compact sorted JSON mapping repository-relative path to {sha256,size_bytes}"
+  },
+  "canonical_reporting": {
+    "root": "results/rvchi2_dqn/v2/pendulum/reporting_full_nn_v1",
+    "inventory": "results/rvchi2_dqn/v2/pendulum/reporting_full_nn_v1/paper_artifact_inventory.json",
+    "inventory_sha256": "cbd473f2a0fcbfb165cd3e6ecbd1852638c03adb1f1687d9243ef2f99a8b133c",
+    "study_manifest_sha256": "cd36820cd01579dce7a94f5c2b028112c50b251fe417b72272fa5b1bb343c907",
+    "development_gate": "results/rvchi2_dqn/v2/pendulum/development_full_nn_v1/aggregated/development_gate.json",
+    "development_gate_sha256": "a4743689123ea68d50ff5b188d5cb6321e43ce116068ad944e7e0c1f0fa94702",
+    "reporting_freeze": "results/rvchi2_dqn/v2/pendulum/development_full_nn_v1/reporting_freeze_manifest.json",
+    "reporting_freeze_sha256": "d05d98482af33b1495f0bf12e76205aacaa189b70334674bd332438b268d38be",
+    "development_config": "configs/rvchi2_dqn/v1/development_pendulum_full_nn.json",
+    "development_config_sha256": "d2730a38b16d488206d68402bd9c1334bbeab30b54d220d0a704b31eb23ad3f9",
+    "reporting_config": "configs/rvchi2_dqn/v1/reporting_pendulum_full_nn.json",
+    "reporting_config_sha256": "8b48513a4122e4c9c48a59e6983dfa139a19988883fc93065aed9e0cf3a5641b"
+  },
+  "supplemental_studies": [
+    {
+      "label": "exact_inner_seed31_appendix",
+      "root": "results/rvchi2_dqn/v2/pendulum/exact_inner_seed31_v1",
+      "study_manifest_sha256": "33b3427af1268c4d8d8d3919879fad053636a2dcdd1a95f3362eeff1ceeb1469",
+      "raw_manifest": "results/rvchi2_dqn/v2/pendulum/exact_inner_seed31_v1/raw/seed_0031/manifest.json",
+      "raw_manifest_sha256": "be7ec63174a95009d5ea28c776361c93c0768c5c2ddf3f6789f67582dc3680a6",
+      "config": "configs/rvchi2_dqn/v1/appendix_pendulum_exact_inner_seed31_v1.json",
+      "config_sha256": "cb59ce69dd7f39239f1fbee85b407cdfe7ca709fc619a0a216a8988b69b842ee"
+    },
+    {
+      "label": "full_nn_seed31_appendix",
+      "root": "results/rvchi2_dqn/v2/pendulum/ablation_full_nn_seed31_v1",
+      "study_manifest_sha256": "843ceac2eaf1c9cccaa7aa0d60de38d387a0b2de89d6bebca5980f65a26107df",
+      "raw_manifest": "results/rvchi2_dqn/v2/pendulum/ablation_full_nn_seed31_v1/raw/seed_0031/manifest.json",
+      "raw_manifest_sha256": "72d69fa1d6d77dc579b69ebef170d3dc060202c911c0bcf0f2cae180ec2bcc89",
+      "config": "configs/rvchi2_dqn/v1/ablation_pendulum_full_nn_lr1e4_seed31.json",
+      "config_sha256": "b99112b525b2c0612e0d9cc52c5815bf147373977f9642ec4fda74005c5b9e55"
+    }
+  ],
+  "executables": {
+    "runner": "scripts/run_rvchi2_dqn.py",
+    "runner_sha256": "31b2a40fc48dc514f3a5be9ad6c7bf1b5c27364d576edebff0d3ee1910f15df8",
+    "plotter": "scripts/plot_rvchi2_dqn.py",
+    "plotter_sha256": "584b1a9b3eec3ecd0825d4584466c49f5199d53f30963b50d9494d8e10bcd20e"
+  },
+  "dependency_lock": {
+    "path": "requirements-freeze.txt",
+    "sha256": "094934c3bfff9eca57bb5cdd757ccf67fcbae81234ce153caffa20d5db79282f"
+  },
+  "recorded_runtime": {
+    "python": "3.10.13",
+    "torch": "2.11.0",
+    "numpy": "2.2.6",
+    "gymnasium": "1.2.3",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.9",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "device": "cpu",
+    "torch_num_threads": 1,
+    "deterministic_torch": true
+  },
+  "aggregate_files": [
+    "aggregated/final_by_seed.csv",
+    "aggregated/robustness_profile.csv",
+    "aggregated/paired_by_seed.csv",
+    "aggregated/paired_profile.csv",
+    "aggregated/seed_inference.json",
+    "aggregated/development_gate.json",
+    "aggregated/main_table.csv"
+  ],
+  "required_figure_files": [
+    "figures/robustness_profiles.pdf",
+    "figures/robustness_profiles.png",
+    "figures/state_policy_and_calibration_seed_101.pdf",
+    "figures/state_policy_and_calibration_seed_101.png",
+    "figures/checkpoint_learning_curves.pdf",
+    "figures/checkpoint_learning_curves.png",
+    "figures/appendix_seed_paired_effects.pdf",
+    "figures/appendix_seed_paired_effects.png",
+    "figures/appendix_affine_backup_error.pdf",
+    "figures/appendix_affine_backup_error.png",
+    "figures/appendix_auxiliary_health.pdf",
+    "figures/appendix_auxiliary_health.png",
+    "figures/figure_manifest.json"
+  ]
+}

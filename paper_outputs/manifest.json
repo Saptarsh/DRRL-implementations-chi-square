@@ -1,0 +1,42 @@
+{
+  "files": [
+    {
+      "byte_identical_to_canonical": true,
+      "canonical_source_path": "paper_variational_chi2_gridworld/main/figures/tabular_tac_composite.pdf",
+      "convenience_path": "paper_outputs/minicliff/tabular_tac_composite.pdf",
+      "experiment": "minicliff",
+      "media_type": "application/pdf",
+      "sha256": "c3cb1b8de3a35cdabde2e7d6c19f6b5edbd20e018e0892cfc0239374911a40bd",
+      "size_bytes": 49378
+    },
+    {
+      "byte_identical_to_canonical": true,
+      "canonical_source_path": "paper_variational_chi2_gridworld/main/figures/tabular_tac_composite.png",
+      "convenience_path": "paper_outputs/minicliff/tabular_tac_composite.png",
+      "experiment": "minicliff",
+      "media_type": "image/png",
+      "sha256": "2f4c78a1e0d58c67b37177ddc7d027e7417e50b5bfc61723a6704dbc96ab82eb",
+      "size_bytes": 373183
+    },
+    {
+      "byte_identical_to_canonical": true,
+      "canonical_source_path": "results/rvchi2_dqn/v2/pendulum/reporting_full_nn_v1/figures/robustness_profiles.pdf",
+      "convenience_path": "paper_outputs/pendulum/robustness_profiles.pdf",
+      "experiment": "pendulum",
+      "media_type": "application/pdf",
+      "sha256": "d06277484771fb68fa814a7d560833818f5d2ffda1874af7d0989427a6f56f6f",
+      "size_bytes": 23649
+    },
+    {
+      "byte_identical_to_canonical": true,
+      "canonical_source_path": "results/rvchi2_dqn/v2/pendulum/reporting_full_nn_v1/figures/robustness_profiles.png",
+      "convenience_path": "paper_outputs/pendulum/robustness_profiles.png",
+      "experiment": "pendulum",
+      "media_type": "image/png",
+      "sha256": "1af0ab2f26b0e147a1ae35fa2e383c448cbc169d4a8c253d506facc4f447a81e",
+      "size_bytes": 341353
+    }
+  ],
+  "note": "Convenience copies only; the authenticated archives contain the complete declared companion-data scope required by the workflows.",
+  "schema_version": "drrl_chi_square.paper_output_convenience.v1"
+}

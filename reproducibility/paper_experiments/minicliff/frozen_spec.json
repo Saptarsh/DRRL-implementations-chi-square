@@ -1,0 +1,141 @@
+{
+  "schema_version": "minicliff.paper_reproducibility.v1",
+  "study_id": "variational_chi2_minicliff_4x6",
+  "claim_scope": "paper-facing multi-decision tabular MiniCliff main experiment and paired floor-sensitivity study; excludes the older one-decision risky-corridor studies",
+  "repository_roots": {
+    "main": "paper_variational_chi2_gridworld/main",
+    "ell_sensitivity": "paper_variational_chi2_gridworld/ell_sensitivity"
+  },
+  "canonical_inventory_serialization": "UTF-8 JSON object mapping POSIX relative path to {sha256,size}, json.dumps(sort_keys=True,separators=(',',':')) followed by one newline",
+  "canonical_inputs": {
+    "main": {
+      "manifest_sha256": "576c9f3256771e9fee3d79a79a34b9d7c75ad1a03c0eb55eb4de54c7af11f996",
+      "file_count": 116,
+      "total_bytes": 2862826,
+      "inventory_sha256": "5fd528c52932d5eb0d42429bda757162f93091953d64b773bdfd985278affe87",
+      "raw_file_count": 100,
+      "raw_inventory_sha256": "61456508a12522c71a20e99f550b61f4ae00e9364c5a3dc4f9b80f9a99d5bb52",
+      "profile": "full",
+      "ells": [0.1],
+      "focus_ell": 0.1,
+      "seeds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
+      "max_parallel": 4
+    },
+    "ell_sensitivity": {
+      "manifest_sha256": "1061f65b522bab1a660cf1c60c7ddd852baee6d01b19a8345a6f1b93fe356446",
+      "file_count": 493,
+      "total_bytes": 9143122,
+      "inventory_sha256": "6a30e08a0606602c70c154b01c9077efba30305d5f67de77958724621314412b",
+      "raw_file_count": 480,
+      "raw_inventory_sha256": "6a334c584f0a431bfa50ebf728317f4670fa0953f7730fd951dbb35ac4897766",
+      "profile": "full",
+      "ells": [0.003, 0.01, 0.03, 0.1, 0.3, 1.0],
+      "focus_ell": 0.1,
+      "seeds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "max_parallel": 6
+    }
+  },
+  "combined_canonical_file_count": 609,
+  "combined_canonical_total_bytes": 12005948,
+  "combined_inventory_sha256": "8d02a0b0ea68f1fe1cae82c35ff1418410f982dc7a0aa36b90d8edecba6df864",
+  "environment": {
+    "name": "minicliff_4x6_continuing",
+    "n_rows": 4,
+    "n_columns": 6,
+    "n_states": 24,
+    "n_actions": 4,
+    "n_decision_states": 19,
+    "gamma": 0.9,
+    "nominal_slip_probability": 0.1,
+    "behavior_goal_bias": 0.2,
+    "ordinary_reward": -0.01,
+    "cliff_reward": -1.0,
+    "goal_reward": 1.0,
+    "marker_transition": "deterministic_reset_to_start",
+    "slip_semantics": "requested action has probability 1-p and each other action p/3"
+  },
+  "algorithm": {
+    "chi2_delta": 0.1,
+    "outer_blocks": 60,
+    "stage1_samples": 50000,
+    "q_stage_samples": 50000,
+    "total_transitions_per_run": 6000000,
+    "stage1_step_mode": "constant",
+    "stage1_stepsize": 0.024,
+    "theory_step_multiplier": 1.0,
+    "beta0": 650.0,
+    "h_q": 1300.0,
+    "eta_l2_radius": 12.0,
+    "scale_l2_radius": 10.0,
+    "nominal_lr_exponent": 0.6,
+    "nominal_lr_scale": 1.0,
+    "evaluation_slip_probability": 0.1875,
+    "ambiguity_upper_slip_probability": 0.1948683298050514,
+    "perturbation_grid": [0.1, 0.125, 0.15, 0.175, 0.1875, 0.1948683298050514, 0.225, 0.25, 0.3],
+    "dp_tolerance": 1e-11,
+    "dp_max_iterations": 20000,
+    "main_floor": 0.1,
+    "floor_sweep": [0.003, 0.01, 0.03, 0.1, 0.3, 1.0]
+  },
+  "statistics": {
+    "aggregation": "arithmetic mean across independent training seeds",
+    "standard_deviation": "sample standard deviation with ddof=1",
+    "interval": "mean plus/minus 1.96 times standard error",
+    "interval_is_student_t": false,
+    "evaluation": "exact finite-MDP policy evaluation; no episode Monte Carlo"
+  },
+  "rng": {
+    "generator": "numpy.random.default_rng(seed)",
+    "expected_bit_generator_on_frozen_dependency": "PCG64",
+    "per_run_seed": "the integer seed listed in the study panel",
+    "stream_semantics": "one persistent generator and one continuing behavior-trajectory cursor per run; Stage 1, robust-Q stage, and the nominal baseline consume one chronological transition stream",
+    "archived_rng_state": false,
+    "archived_raw_trajectory": false
+  },
+  "source_snapshot": {
+    "README_variational_chi2_gridworld.md": "e543c2822e2358e6551a03cd0afc7092c6bbc8365a70af16695e857532c07184",
+    "requirements-freeze.txt": "094934c3bfff9eca57bb5cdd757ccf67fcbae81234ce153caffa20d5db79282f",
+    "requirements.txt": "4b33cd9b3ec4493dfb29d8cc8224dc738faf7025a614f95e472db6fab994bd76",
+    "scripts/plot_variational_chi2_gridworld_tac.py": "6d1f6774039d2894b810695151975f7f4532484b49ff3e00ec0783bfe1ca2279",
+    "scripts/run_variational_chi2_gridworld_paper.py": "143f7677084960eae1329f6f03fab54c3c6da91a637a827001a21eec3a12603e",
+    "src/train_variational_chi2_gridworld.py": "60819179ece6570f3575bd593989debf9c81fccd607e9c872f3f3bf0bd2ba3e5",
+    "src/train_variational_chi2_tabular.py": "653dd90df594ce5fba5dcd48e091c90ce350f4ff77ca53f12ff8e843e76884f0",
+    "src/variational_tabular_envs.py": "6993694ad6298fd22a235717154369edba5b600d7fde8f48286a0f6012b7ea58",
+    "tests/test_variational_chi2_tabular.py": "cc915c3b1e7472e5d35a6c4ab6cc120d25b898c9fc4b3f471f906a7a7bd1b469",
+    "tests/test_variational_chi2_gridworld.py": "c0ac4440fed7abf3a0278963e7f38b93cd8513b02662243a745d4f1ea88aae01",
+    "tests/test_variational_tabular_envs.py": "26b3668207bacb3741e4462e52ba6c0771329dc2116d3eb6d5d44f9fa53a7a58",
+    "variational_algorithm.txt": "3af54eb16edc4023a5a98201eebb39419f7bc142769ab2e14923c7677d7b9ef4"
+  },
+  "live_source_correspondence": {
+    "README_variational_chi2_gridworld.md": "README_variational_chi2_gridworld.md",
+    "requirements-freeze.txt": "requirements-freeze.txt",
+    "requirements.txt": "requirements.txt",
+    "scripts/plot_variational_chi2_gridworld_tac.py": "scripts/plot_variational_chi2_gridworld_tac.py",
+    "scripts/run_variational_chi2_gridworld_paper.py": "scripts/run_variational_chi2_gridworld_paper.py",
+    "src/train_variational_chi2_gridworld.py": "src/train_variational_chi2_gridworld.py",
+    "src/train_variational_chi2_tabular.py": "src/train_variational_chi2_tabular.py",
+    "src/variational_tabular_envs.py": "src/variational_tabular_envs.py",
+    "tests/test_variational_chi2_tabular.py": "tests/test_variational_chi2_tabular.py",
+    "tests/test_variational_chi2_gridworld.py": "tests/test_variational_chi2_gridworld.py",
+    "tests/test_variational_tabular_envs.py": "tests/test_variational_tabular_envs.py",
+    "variational_algorithm.txt": "variational_algorithm.txt"
+  },
+  "historical_execution_environment": {
+    "status": "not_recorded_in_the_2026_08_02_or_2026_08_06_tabular_artifacts",
+    "consequence": "the frozen dependency file is authenticated repository context, not proof of the exact environment that produced the historical artifacts"
+  },
+  "audit_environment": {
+    "captured_date": "2026-08-13",
+    "python": "3.10.13",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.9",
+    "blas": "Apple Accelerate; version not reported by NumPy"
+  },
+  "limitations": [
+    "The historical run did not archive RNG state or the six-million-transition trajectory.",
+    "The historical top-level manifests list but do not hash their aggregates and figures; this capsule closes that gap with full-tree inventory digests.",
+    "The TAC composite and TeX were post-hoc derivatives outside the historical main manifest; regenerated derivatives are labeled and independently bound.",
+    "A rerun under a different NumPy or BLAS build is a reproducibility attempt, not guaranteed bitwise reconstruction."
+  ]
+}

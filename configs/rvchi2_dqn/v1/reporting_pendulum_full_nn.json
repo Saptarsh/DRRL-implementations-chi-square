@@ -1,0 +1,11 @@
+{
+  "task": "pendulum",
+  "phase": "reporting",
+  "seeds": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110],
+  "overrides": {
+    "enabled_methods": ["nominal", "affine", "full_nn"],
+    "continue_after_failed_pretraining_gate": true,
+    "pretrain_q_learning_rate": 0.00025,
+    "q_learning_rate": 0.0001
+  }
+}

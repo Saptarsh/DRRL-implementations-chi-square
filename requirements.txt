@@ -1,0 +1,8 @@
+torch
+numpy
+gymnasium[classic_control]
+stable-baselines3==2.8.0
+tensorboard
+tyro
+matplotlib
+pandas
