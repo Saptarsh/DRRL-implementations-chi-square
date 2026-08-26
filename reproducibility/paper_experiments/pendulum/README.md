@@ -8,6 +8,13 @@ reporting bundle at:
 results/rvchi2_dqn/v2/pendulum/reporting_full_nn_v1
 ```
 
+For the task definition, compared methods, network initialization, complete
+resolved hyperparameters, seed derivations, and one-seed supplemental commands,
+see the top-level
+[`README_RVCHI2_PENDULUM.md`](../../../README_RVCHI2_PENDULUM.md). This file
+remains the command-focused guide to authentication, paper-figure
+reconstruction, and the guarded main rerun.
+
 That bundle contains nominal DDQN, RVChi2-A, and RVChi2-N. Its nominal and
 affine rows are exactly the same numerical results as the earlier affine-only
 `reporting_frozen_v2` study. The later bundle is canonical because its
@@ -129,8 +136,9 @@ updates per variational branch.
 ## Reproducibility boundary
 
 The historical bundles preserve resolved configs, final neural and optimizer
-states, per-episode evaluations, learning traces, held-out exact/learned backup
-calibration, source hashes, and package versions. They do **not** preserve full
+states, per-episode evaluations, learning traces, deterministic-grid
+exact/learned backup calibration, source hashes, and package versions. They do
+**not** preserve full
 replay arrays, environment states, or Python/NumPy/Torch RNG states. Therefore:
 
 - paper statistics and plots can be independently regenerated from saved raw

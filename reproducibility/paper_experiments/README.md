@@ -67,6 +67,9 @@ READMEs:
 - [`minicliff/README.md`](minicliff/README.md)
 - [`pendulum/README.md`](pendulum/README.md)
 
+The detailed scientific and implementation guide for the neural study is
+[`README_RVCHI2_PENDULUM.md`](../../README_RVCHI2_PENDULUM.md).
+
 Do not point a training or regeneration command at the canonical paper result
 directories.  Both wrappers reject overlapping or pre-existing output paths.
 

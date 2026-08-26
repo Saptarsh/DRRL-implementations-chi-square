@@ -9,7 +9,7 @@ It contains the executable source and frozen configurations for the two
 paper-facing experiments:
 
 - a tabular `4 x 6` MiniCliff study; and
-- a neural Pendulum study.
+- a [neural Pendulum study](README_RVCHI2_PENDULUM.md).
 
 The complete declared companion-data scope required by these workflows is
 distributed as two versioned assets on the repository's
@@ -165,6 +165,11 @@ task-specific READMEs:
 
 - [`reproducibility/paper_experiments/minicliff/README.md`](reproducibility/paper_experiments/minicliff/README.md)
 - [`reproducibility/paper_experiments/pendulum/README.md`](reproducibility/paper_experiments/pendulum/README.md)
+
+The scientific task, method definitions, neural initialization, complete
+resolved Pendulum hyperparameters, seed derivations, and supplemental-run
+commands are collected in
+[`README_RVCHI2_PENDULUM.md`](README_RVCHI2_PENDULUM.md).
 
 ## Source layout
 

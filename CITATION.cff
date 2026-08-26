@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this reproducibility package, please cite the associated work."
 type: software
 title: "Reproducibility package for Finite-Time Convergence of Single-Trajectory Chi-Square Robust Q-Learning With Linear Function Approximation"
-version: "1.0.0"
-date-released: "2026-08-18"
+version: "1.0.1"
+date-released: "2026-08-26"
 authors:
   - family-names: Mandal
     given-names: Saptarshi

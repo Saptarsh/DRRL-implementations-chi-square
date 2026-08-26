@@ -1,4 +1,9 @@
-# Initial reproducibility release
+# Reproducibility release v1.0.1
+
+This documentation-only patch adds a detailed reviewer-facing Pendulum neural
+implementation guide and cross-links it from the main workflow documentation.
+It does not change the scientific code, frozen configurations, authenticated
+evidence, paper figures, or companion-archive bytes.
 
 This release publishes the frozen MiniCliff and Pendulum experiment capsules
 for *Finite-Time Convergence of Single-Trajectory Chi-Square Robust Q-Learning
