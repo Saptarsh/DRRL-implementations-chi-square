@@ -5,6 +5,8 @@ This repository accompanies
 With Linear Function Approximation* by Saptarshi Mandal, Yashaswini Murthy,
 and R. Srikant.
 
+If you use this code, please cite our arXiv paper [Paper Link](https://arxiv.org/abs/2510.01721).
+
 It contains the executable source and frozen configurations for the two
 paper-facing experiments:
 
